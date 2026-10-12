@@ -1,0 +1,25 @@
+name: bio_lords
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python==3.11
+  - matplotlib
+  - tqdm
+  - jupyter
+  - notebook
+  - lightning
+  - pytorch-lightning
+  - pytest
+  - pip 
+  - pip:
+      - torch
+      - notebook
+      - numpy
+      - pyyaml
+      - torchvision
+      - torchaudio
+      - ray[tune]
+      - scikit-learn

@@ -1,0 +1,15 @@
+python==3.13
+torch
+matplotlib
+tqdm
+numpy
+jupyter
+notebook
+lightning
+ray[tune]
+pytorch-lightning
+pytest
+pyyaml
+pip
+torchvision
+torchaudio
